@@ -788,3 +788,256 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:22] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:26] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:29] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:33] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:34] "POST /start_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:36] "POST /stop_betting HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:36] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:37] "POST /stop_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:38] "POST /start_betting HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:39] "POST /start HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:43] "POST /start HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:46] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:47] "POST /stop_betting HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:47] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:49] "POST /stop_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:50] "POST /start_betting HTTP/1.1" 200 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:24:50] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+ERROR:root:Erro ao apostar: 'NoneType' object has no attribute 'find_element'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:26:22] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:33:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:33:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:33:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:33:17] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:33:25] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug: * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\NovoMines\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:34:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:34:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:34:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:34:40] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:14] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\NovoMines\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:36:57] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug: * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\NovoMines\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:38:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:38:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:38:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:38:02] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug: * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\NovoMines\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:39:12] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug: * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\NovoMines\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:18] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:36] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: element click intercepted: Element <button class="red   shared-button-custom css-12vlaew" testid="start-game" type="button" title="" data-testid="start-game">...</button> is not clickable at point (704, 338). Other element would receive the click: <div class="modal-portal" data-modal-type="auth">...</div>
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x005B3853+24035]
+	(No symbol) [0x0053BBE4]
+	(No symbol) [0x0041C2D3]
+	(No symbol) [0x00463B27]
+	(No symbol) [0x00461F89]
+	(No symbol) [0x0045FE64]
+	(No symbol) [0x0045F45E]
+	(No symbol) [0x0045414D]
+	(No symbol) [0x0047FE8C]
+	(No symbol) [0x00453C04]
+	(No symbol) [0x00480124]
+	(No symbol) [0x0049953F]
+	(No symbol) [0x0047FC26]
+	(No symbol) [0x0045218C]
+	(No symbol) [0x0045310D]
+	GetHandleVerifier [0x00859683+2800659]
+	GetHandleVerifier [0x008B423E+3172302]
+	GetHandleVerifier [0x008ACE52+3142626]
+	GetHandleVerifier [0x00656C00+692624]
+	(No symbol) [0x00544BFD]
+	(No symbol) [0x00541908]
+	(No symbol) [0x00541AA0]
+	(No symbol) [0x00533F50]
+	BaseThreadInitThunk [0x76F55D49+25]
+	RtlInitializeExceptionChain [0x77DCCEBB+107]
+	RtlGetAppContainerNamedObjectPath [0x77DCCE41+561]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:52] "POST /start_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:56] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:57] "POST /start_betting HTTP/1.1" 200 -
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:42:03] "POST /stop_betting HTTP/1.1" 200 -

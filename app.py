@@ -6,6 +6,7 @@ import threading
 import logging
 from flask import Flask, render_template, jsonify
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
 logging.basicConfig(filename='mines_bot.log', level=logging.INFO)
 
@@ -22,15 +23,18 @@ class MinesBot:
         if self.driver is None:
             options = webdriver.ChromeOptions()
             options.add_argument("--start-maximized")
-            # Simulação de User-Agent de dispositivo móvel
             options.add_argument("user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15A372 Safari/604.1")
-            # Opções essenciais para rodar no Heroku
-            options.add_argument("--headless")
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
+            # Remover --headless para depuração
+            # options.add_argument("--headless")
 
-            self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+            service = Service(ChromeDriverManager().install())
+            self.driver = webdriver.Chrome(service=service, options=options)
+
+            # Aumentar o tempo de espera
             self.driver.get('https://blaze.com/pt/games/mines')
+            time.sleep(5)  # Aumenta o tempo de espera
             print("Por favor, faça login manualmente.")
 
     def place_bet(self):
