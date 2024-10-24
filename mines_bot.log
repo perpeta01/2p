@@ -1,0 +1,776 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:07:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:07:03] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:07:04] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:07:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:07:06] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:09:16] "POST /start_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:09:39] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:09:59] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:00] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:01] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:03] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:10] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:10] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:12] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:12] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:12] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:14] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:10:15] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mine-controller"]/div[1]/div/button"}
+  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D95A3E]
+	(No symbol) [0x00007FF622D95D2C]
+	(No symbol) [0x00007FF622DDEA97]
+	(No symbol) [0x00007FF622DBBA7F]
+	(No symbol) [0x00007FF622DDB8B3]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:11:57] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 06:12:00] "POST /start_betting HTTP/1.1" 200 -
+ERROR:root:Erro ao apostar: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D1FA85]
+	(No symbol) [0x00007FF622DC2AD7]
+	(No symbol) [0x00007FF622DDB1B1]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+ERROR:root:Erro ao apostar: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF622F43AB5+28005]
+	(No symbol) [0x00007FF622EA83B0]
+	(No symbol) [0x00007FF622D4580A]
+	(No symbol) [0x00007FF622D1FA85]
+	(No symbol) [0x00007FF622DC2AD7]
+	(No symbol) [0x00007FF622DDB1B1]
+	(No symbol) [0x00007FF622DBB7E3]
+	(No symbol) [0x00007FF622D875C8]
+	(No symbol) [0x00007FF622D88731]
+	GetHandleVerifier [0x00007FF62323643D+3118829]
+	GetHandleVerifier [0x00007FF623286C90+3448640]
+	GetHandleVerifier [0x00007FF62327CF0D+3408317]
+	GetHandleVerifier [0x00007FF62300A40B+841403]
+	(No symbol) [0x00007FF622EB340F]
+	(No symbol) [0x00007FF622EAF484]
+	(No symbol) [0x00007FF622EAF61D]
+	(No symbol) [0x00007FF622E9EB79]
+	BaseThreadInitThunk [0x00007FFA7B50DBE7+23]
+	RtlUserThreadStart [0x00007FFA7C3A5A4C+44]
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:02] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:05] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:26] "POST /start HTTP/1.1" 200 -
