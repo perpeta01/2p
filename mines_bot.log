@@ -1041,3 +1041,24 @@ INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:56] "POST /stop_betting HTTP/1.1"
 INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:41:57] "POST /start_betting HTTP/1.1" 200 -
 WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
 INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:42:03] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:47:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:47:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:47:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:WDM:====== WebDriver manager ======
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:47:59] "POST /start HTTP/1.1" 200 -
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\mathe\.wdm\drivers\chromedriver\win64\130.0.6723.69\chromedriver-win32/chromedriver.exe] found in cache
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:48:12] "POST /start_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:48:18] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:48:20] "POST /stop_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:48:21] "POST /start_betting HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2024 19:48:24] "POST /stop_betting HTTP/1.1" 200 -
