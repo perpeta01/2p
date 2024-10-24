@@ -774,3 +774,17 @@ INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:02] "GET /static/script.js HT
 INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:02] "GET /static/style.css HTTP/1.1" 200 -
 INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:05] "POST /start HTTP/1.1" 200 -
 INFO:werkzeug:192.168.0.105 - - [24/Oct/2024 06:17:26] "POST /start HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 610-928-414

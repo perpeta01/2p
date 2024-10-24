@@ -5,6 +5,7 @@ import time
 import threading
 import logging
 from flask import Flask, render_template, jsonify
+from webdriver_manager.chrome import ChromeDriverManager
 
 logging.basicConfig(filename='mines_bot.log', level=logging.INFO)
 
@@ -21,7 +22,9 @@ class MinesBot:
         if self.driver is None:
             options = webdriver.ChromeOptions()
             options.add_argument("--start-maximized")
-            self.driver = webdriver.Chrome(options=options)
+            # Simulação de User-Agent de dispositivo móvel
+            options.add_argument("user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15A372 Safari/604.1")
+            self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
             self.driver.get('https://blaze.com/pt/games/mines')
             print("Por favor, faça login manualmente.")
 
@@ -40,6 +43,7 @@ class MinesBot:
                 weighted_blocks = sorted(self.block_stats, key=self.block_stats.get, reverse=True)
                 chosen_blocks = random.sample(weighted_blocks[:10], blocks_to_open)
 
+                # Garante que não vai escolher blocos já abertos
                 chosen_blocks = [block for block in chosen_blocks if block not in previously_chosen]
                 previously_chosen.update(chosen_blocks)
 
